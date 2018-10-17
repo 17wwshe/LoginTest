@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tx_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="127dp"
+            android:text="@string/username"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/ed_username"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tx_username"
+            android:layout_alignBottom="@+id/tx_username"
+            android:layout_marginStart="23dp"
+            android:layout_toEndOf="@+id/tx_username"
+            android:hint="@string/ed_username"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tx_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed_username"
+            android:layout_marginTop="20dp"
+            android:layout_toStartOf="@+id/ed_username"
+            android:text="@string/password"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/ed_pwd"
+            android:inputType="textPassword"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tx_pwd"
+            android:layout_alignBottom="@+id/tx_pwd"
+            android:layout_alignStart="@+id/ed_username"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bt_cancel"
+            android:layout_alignBottom="@+id/bt_cancel"
+            android:layout_alignStart="@+id/tx_pwd"
+            android:layout_marginStart="32dp"
+            android:text="@string/sure"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/ed_pwd"
+            android:layout_below="@+id/ed_pwd"
+            android:layout_marginEnd="23dp"
+            android:layout_marginTop="82dp"
+            android:text="@string/cancel"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/bt_sure"
+            android:layout_below="@+id/bt_sure"
+            android:layout_marginTop="45dp"
+            android:text="@string/register"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tx_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/bt_register"
+            android:layout_marginStart="11dp"
+            android:layout_toEndOf="@+id/bt_register"
+            android:text="@string/for_register"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

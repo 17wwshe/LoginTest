@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LoginTest</string>
+    <string name="username">账号:</string>
+    <string name="ed_username">用户名或手机号或邮箱</string>
+    <string name="password">密码:</string>
+    <string name="sure">确认</string>
+    <string name="cancel">取消</string>
+    <string name="name">用户名:</string>
+    <string name="phone">手机号码:</string>
+    <string name="email">邮箱:</string>
+    <string name="out">退出</string>
+    <string name="register">注册</string>
+    <string name="for_register">没有账号？注册一个......</string>
+    <string name="for_login">已有账号？马上登陆</string>
+
+</resources>
